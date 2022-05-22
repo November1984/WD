@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 150px;
+    background-color: #fff;
+}
+
+.content {
+    display: flex;
+}
+
+
+.footer {
+    height: 100px;
+    background-color: #ddd;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 100px;
+    display: flex;
+}
+
+ul.top_content {
+    margin: 25px 0px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0px 36px 0 0;
+}
+
+.button {
+    height: 38px;
+    box-sizing: content-box;
+    padding: 0 16px;
+
+}
+
+.input {
+    height: 38px;
+    width: 320px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+ul.header_list {
+    width: 680px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    height: 665px;
+    background-color: rgb(232, 232, 232);
+    background-image: url(./images/Layer\ 24.png);
+    background-position-y: -150px;
+    background-position-x: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.slider_text {
+    font-family: lato-black;
+    font-size: 40px;
+}
+
+.slider_t {
+    border-left: 12px solid rgb(241, 109, 127);
+    padding-left: 12px;
+}
+
+.t1 {
+
+    font-size: 60px;
+}
+
+.t2 {
+    color: rgb(241, 109, 127);
+}
+
+.news {
+    height: 823px;
+    margin: 80px auto;
+    display: flex;
+}
+
+.news_l {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.news_r {
+    margin-bottom: 20px;
+}
+
+.news_box {
+    margin: 20px auto;
+    position: relative;
+    overflow: clip;
+}
+
+.news_1 {
+    height: 542px;
+    width: 560px;
+}
+
+.news_box p {
+    font-family: lato-black;
+    font-size: 18px;
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 15px 20px;
+    top: 27px;
+}
+
+.news_box span {
+    font-size: 30px;
+    color: rgb(241, 109, 127);
+}
+
+.news_2 {
+    height: 262px;
+    width: 560px;
+    background-color: rgb(218, 218, 210);
+}
+
+.news_2 img {
+    top: -50px;
+    right: 0px;
+}
+
+.news_3 {
+    height: 262px;
+    width: 560px;
+}
+
+.news_3 img {
+    top: -100px;
+}
+
+.news_4 {
+    height: 542px;
+    width: 560px;
+}
+
+.news_box img {
+    position: absolute;
+}

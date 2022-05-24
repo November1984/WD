@@ -23,37 +23,108 @@
     margin: 0 auto;
 }
 
+/* top start */
 .top {
     height: 100px;
     display: flex;
-}
-
-ul.top_content {
-    margin: 25px 0px;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    width: 100%;
     justify-content: space-between;
 }
 
-.logo {
-    margin: 0px 36px 0 0;
+.top_left {
+    display: flex;
+    align-items: center;
 }
 
-.button {
+.top_right {
+    display: flex;
+    align-items: center;
+}
+
+.top_logo {
+    display: contents;
+}
+
+.top_logo img {
+    display: inline;
+    padding: 13px;
+}
+
+.top_logo-text {
+    display: inline;
+    font-family: lato-light;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.top_logo-text span {
+    color: rgb(241, 109, 127);
+}
+
+.top_search {
+    margin-left: 36px;
+    display: inline;
+}
+
+.top_dropdown {
+    display: inline;
+}
+
+.top_search_btn {
     height: 38px;
     box-sizing: content-box;
     padding: 0 16px;
-
+    border: none;
 }
 
-.input {
+.tsb_dwn {
+    border: none;
+}
+
+.top_dropdown:hover .top_dropdown-content {
+    display: block;
+}
+
+.top_dropdown-content {
+    display: none;
+    z-index: 1;
+}
+
+.top_input {
     height: 38px;
     width: 320px;
 }
 
+.top_search_border {
+    border-width: thin;
+    border-radius: 3px;
+    border-color: rgb(232, 232, 232);
+    border-style: solid;
+    display: flex;
+}
+
+.top_bascket {
+    padding-top: 13px;
+}
+
+.top_akk_btn {
+    margin-left: 25px;
+}
+
+.akk_button {
+    border: none;
+    color: white;
+    background: rgb(241, 109, 127);
+    width: 130px;
+    height: 38px;
+}
+
+.top_akk_btn:hover .akk_button {
+    background: #fff;
+    color: rgb(241, 109, 127);
+    border: 1px solid rgb(241, 109, 127);
+}
+
+/* top end */
 .header_menu {
     display: flex;
     justify-content: center;
@@ -69,23 +140,32 @@ ul.header_list {
 }
 
 .slider {
-    height: 665px;
     background-color: rgb(232, 232, 232);
+}
+
+.slider_img {
+    height: 665px;
     background-image: url(./images/Layer\ 24.png);
     background-position-y: -150px;
-    background-position-x: 120px;
+    background-position-x: 30px;
     display: flex;
     align-items: center;
+    background-repeat: no-repeat;
 }
 
 .slider_text {
     font-family: lato-black;
     font-size: 40px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
 }
 
 .slider_t {
     border-left: 12px solid rgb(241, 109, 127);
     padding-left: 12px;
+    position: absolute;
+    top: -13px;
 }
 
 .t1 {

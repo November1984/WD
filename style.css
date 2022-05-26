@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -69,11 +69,15 @@
     display: inline;
 }
 
-.top_search_btn {
+.top_browse_btn {
     height: 38px;
     box-sizing: content-box;
     padding: 0 16px;
     border: none;
+    background: rgb(248, 248, 248);
+    font-family: lato-light;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
 }
 
 .tsb_dwn {
@@ -108,6 +112,13 @@
 .top_input {
     height: 38px;
     width: 320px;
+    background: #fff;
+}
+
+.top_search_btn {
+    color: rgb(164, 164, 164);
+    background: #fff;
+    border-left: inherit;
 }
 
 .top_search_border {
@@ -145,7 +156,6 @@
 .header_menu {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
 }
 
 ul.header_list {

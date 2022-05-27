@@ -183,7 +183,7 @@ ul.header_list {
 .slider_text {
     font-family: lato-black;
     font-size: 40px;
-    height: 100px;
+    height: 98px;
     position: relative;
     overflow: hidden;
 }
@@ -192,7 +192,7 @@ ul.header_list {
     border-left: 12px solid rgb(241, 109, 127);
     padding-left: 12px;
     position: absolute;
-    top: -13px;
+    top: -53px;
 }
 
 .t1 {

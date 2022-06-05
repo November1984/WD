@@ -192,6 +192,15 @@ button {
     display: flex;
 }
 
+.mega_menu_name {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 700;
+    font-family: Lato;
+}
+
 .mega_menu_box{
     display: none;
     position: absolute;
@@ -256,7 +265,7 @@ button {
     margin-right: 0;
 } */
 
-.mega_menu_item h3{
+.mega_menu_heading {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0px;
@@ -266,7 +275,8 @@ button {
     font-family: "Lato";
 
     border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 8px;
+    margin-bottom: 25px;
+    padding-top: 25px;
     margin-bottom: 8px;
     width: 235px;
 }
@@ -286,6 +296,43 @@ button {
 
 .mega_menu_link:hover {
     color: rgb(241, 109, 127);
+}
+
+.mega_menu_img_box {
+    height: 119px;
+    width: 256px;
+    position: relative;
+    overflow: hidden;
+    padding: 9px;
+    margin-top: 12px;
+}
+
+.mega_menu_box_img {
+    position: absolute;
+}
+
+.mega_menu_img_box p::selection {
+    background: transparent;
+}
+.mega_menu_img_box p{
+    text-transform: uppercase;
+    color: #fff;
+    width: 71px;
+    position: absolute;
+    top: 73px;
+    right: 15px;
+
+    text-shadow: 1px 0 1px #000,
+                 0 1px 1px #000,
+                 -1px 0 1px #fff,
+                 0 -1px 1px #000;
+
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
 }
 
 
@@ -719,4 +766,10 @@ h2 {
 
 .bottom_social button:hover {
     background: rgb(241, 109, 127);
+}
+
+.vk{
+    font-size: 33px;
+    /* background-color: #000; */
+    color: #fff;
 }

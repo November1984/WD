@@ -456,9 +456,107 @@ button {
 
 /* Main start */
 
+.content_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content_card {
+    width: 264px;
+    position: relative;
+    margin: 1px;
+}
+
+.content_card:hover .content_card_img {
+    filter: brightness(30%);
+}
+
+
+.content_card_link {
+    display: block;
+    width: 264px;
+}
+
+.content_card_link:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+
+.content_card:hover .content_card_addbtn {
+    display: flex;
+}
+
+.content_card_img_box {
+    position:relative;
+    height: 281px;
+    overflow: hidden;
+}
+.content_card_img {
+    min-block-size: 281px;
+    right: 0;
+    position: absolute;
+}
+
+.content_card_add_link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 8px;
+    pointer-events: auto;
+}
+
+.content_card_add_link:hover {
+    box-shadow: 0 0 10px 0px #fff; 
+}
+
+.content_card_addbtn {
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.card_addbtn_description {
+    padding-left: 8px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.pict_crop {
+    position: relative;
+    width: 264px;
+    overflow: hidden;
+}
+
+.contetent_card_description_text {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-top: 21px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+
+.contetent_card_description_price {
+    font-size: 16px;
+    color: rgb(241, 109, 127);
+    font-weight: 700;
+    font-family: "Lato";
+    padding-bottom: 21px;
+    padding-left: 15px;
+}
+
 h2 {
     font-size: 30px;
-    margin: 16px auto;
+    /* margin: 16px auto; */
     font-family: lato-bold;
 }
 
@@ -466,7 +564,7 @@ h2 {
     font-family: lato-regular;
     font-size: 14px;
     color: rgb(159, 159, 159);
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
 .content_footer {
@@ -773,3 +871,11 @@ h2 {
     /* background-color: #000; */
     color: #fff;
 }
+
+/* .fa-spin {
+    animation-name: x;
+}
+
+.vk:hover .fa-spin{
+    animation-name: fa-spin;
+} */
